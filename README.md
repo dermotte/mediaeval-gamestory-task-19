@@ -1,5 +1,11 @@
 # 2019-GameStory
-In this task we encourage participants to think up and investigate ways to summarize how e-sport matches ramp up, evolve and play out over time. Instead of iterating highlights, the summary needs to present an engaging and captivating story, which boils down the thrill of the game to its mere essence.
+In this task we task participants for replay detection and multi stream synchronization. This can be evaluated automatically and subjectively and provides participants with a particular and well defined problem to solve. In the date set we offer the players views (five per team) on the game as well as the commentators view, in which players' views are used to comment on the game. In the commentators' stream important scenes are replayed, and that's what we ask participants find, i.e. in that order
+
+1. Identification of replays in the commentators stream
+2. Re-finding the particular scene in the players stream
+3. Matching the time points and the length in the videos.  
+
+Optional submission for each team is still a summary an engaging and captivating story, which boils down the thrill of the game to its mere essence. For the optional task we encourage participants to think up and investigate ways to summarize how e-sport matches ramp up, evolve and play out over time. Instead of iterating highlights, the summary needs to present an engaging and captivating story, which boils down the thrill of the game to its mere essence.
 
 # Groups and Communications
 First of all: communications. I think it’s crucial to stay in contact and communicate to overcome organizational as well as research problems. Besides the obvious possibility to send emails, we are also using discord, so please connect to us there too if you feel like it :) https://discord.gg/THEpZFe
