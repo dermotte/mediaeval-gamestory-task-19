@@ -1,0 +1,2 @@
+# Using LIRE for frame analysis
+Gradle based approach for using LIRE and OpenCV (Java) on the provided video files. Use IntelliJ IDEA and import this directory. IDEA will then do its best to import all the libs and you can use LIRE and OpenCV as you wish.

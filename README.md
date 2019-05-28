@@ -4,7 +4,7 @@ In this task we encourage participants to think up and investigate ways to summa
 # Groups and Communications
 First of all: communications. I think it’s crucial to stay in contact and communicate to overcome organizational as well as research problems. Besides the obvious possibility to send emails, we are also using discord, so please connect to us there too if you feel like it :) https://discord.gg/THEpZFe
 
-Also use Github: We've got this very github repo to exchange information and code. Please use the issue tracker for issues with the data or the whole projects, we'll try to resolve them asap. Send us pull requests if want us to incude additional code or documentation.
+Also use Github: We've got this very github repo to exchange information and code. Please use the issue tracker for issues with the data or the whole projects, we'll try to resolve them asap. Send us pull requests if want us to include additional code or documentation.
 
 # Registration and Submission
 
