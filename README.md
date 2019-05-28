@@ -6,25 +6,10 @@ First of all: communications. I think it’s crucial to stay in contact and comm
 
 Also use Github: We've got this very github repo to exchange information and code. Please use the issue tracker for issues with the data or the whole projects, we'll try to resolve them asap. Send us pull requests if want us to incude additional code or documentation.
 
-# Submission
-
-## Deadline extension
-First of all, we extend the submission deadline to **XXXX**. You’ll get your feedback then on Sept. xxth 2019, but we still need the working notes on Sept. 30th.
-
-## What and how to upload
-For submission, please summarize match 11 from the training set. It’s the final game between FaZe Clan and Fnatic and the commentator view starts in 2018-03-04_P11.mp4 around second 25.600. In the web interface on https://beta.znipe.tv/esl-katowice-2018/event it’s “FAZ vs. FNC, Grand Final - Bo5 - Game 5, IEM Katowice”.
-
-For submission, each team is allowed three runs resulting in three video files to submit. Please use descriptive file names like [team_name]_run[number].mp4. Please check before submission if VLC player can display the file. Each video file should not be longer than 5 minutes! Please upload your video files at
-
-https://xxxx
-
-After upload, the jury will review the video, and you will get aggregated feedback on your runs.
- 
-## Working Notes
-In the meantime, you can prepare your working notes for MediaEval. Please keep in mind that the working notes should describe what you have done, so it’s more a work report than a scientific paper. Instructions can be found here: tba.
+# Registration and Submission
 
 ## Register for MediaEval
-Last but not least, we’d greatly appreciate if you present you work at the workshop (that’s actually all what it is about), where we can also discuss joint publications based on the runs and the data as well as future tasks and joint projects. Register for the workshop on the MediaEval 2018 Workshop registration website: tba.
+Task registration is now open. Check out the descriptions of this year's tasks on the [MediaEval 2019 webpage](http://www.multimediaeval.org/mediaeval2019/index.html), and then [register to participate](https://docs.google.com/forms/d/e/1FAIpQLSfxS4LPBhLQUTXSPT5vogtiSy7BuAKrPs6u6pZXcSV1Xs7XEQ/viewform). The workshop will be held 27-29 October 2019 (near Nice, right after ACM Multimedia 2019.)
 
 If you have any questions, don’t hesitate to contact us on discord (https://discord.gg/THEpZFe), via mail or any other means necessary!
 
@@ -70,7 +55,7 @@ These timestamps may unfortunately differ up to 40 seconds from the UTC timestam
 ## Synchronization data
 Due to above problems we created with the help of Michael Wutti, a participant from last year's GameStory task, synchronization data files that can be used to synchronize the video sreams P1-P11. The files scores-test.csv and scores-training.csv (for test and training data respectively) give the match id, the round number as well as the score after finishing the particular round. 
 
-The sync data defines sync points per match and video stream, e.g. sync_match_1_P1.csv would define the sync points for the P1 stream for the first match. Please note that the sync points are created automatically and do not always match completeley, especially the first rounds of each match are not properly synchronized as the warm-up phase is not explicitely recognized. Also, for P11 the replays interfere with the sync points. If the algorithm is unsure the key word ''none'' is used instead of an actual value. 
+The sync data defines sync points per match and video stream, e.g. sync_match_1_P1.csv would define the sync points for the P1 stream for the first match. Please note that the sync points are created automatically and do not always match completeley, especially the first rounds of each match are not properly synchronized as the warm-up phase is not explicitely recognized. Also, for P11 the replays interfere with the sync points. If the algorithm is unsure the key word ''none'' is used instead of an actual value. For the 10th match in the training data no sync points are available due to missing server logs.  
 
 The sync files give 
 
@@ -79,12 +64,13 @@ The sync files give
   * **round_begin** .. hh:mm:ss of the beginning of the round relative to the beginning of the video stream
   * **frame_nr** .. the frame number of the start of the round
 
-
-You can find the original code and data at  https://github.com/mwutti/medieval18
+You can find the original code and data at  https://github.com/mwutti/medieval18 with the original extraction scripts for 
+  * sync: https://github.com/mwutti/medieval18/blob/master/sync_points_extractor.py
+  * scores: https://github.com/mwutti/medieval18/blob/master/score_extractor.py
 
 ## Training data
-The training data (~65 GB) has been released and is available to the participants at  ...
+The training data (~65 GB) will be released on May 31st 2019.
 
 ## Test data
-The test data (~33GB) is the actual data set to generate the summary from ...
+The test data (~33GB) is the actual data set to find the replays and generate the summary. It will be release on June 30th 2019.
 
